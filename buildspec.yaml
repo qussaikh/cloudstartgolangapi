@@ -5,4 +5,4 @@ phases:
     commands:
       - docker build -t git.systementor.se/yacloud/stensax0424 .
       - docker login -u yacloud -p yacloud1 https://git.systementor.se
-      - docker push git.systementor.se/yacloud/qksax0424
+      - docker push git.systementor.se/yacloud/stensax0424
