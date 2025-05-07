@@ -5,8 +5,8 @@ database:
   # eller alla dessa (om file är blankt)
   sql-user: "root"            #
   sql-pass: "Hejsan123"
-  sql-server: "mysql"
-  sql-database: "salary"
+  sql-server: "mysqlserver1"
+  sql-database: "qksax"
   sql-port: 3306
 
 redis:
