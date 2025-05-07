@@ -1,0 +1,8 @@
+version: 0.2
+ 
+phases:
+  build:
+    commands:
+      - docker build -t qussai/yacloud/qksax0424 .
+      - docker login -u qkcloud -p qkcloud1 https://git.systementor.se
+      - docker push qussai/yacloud/qksax0424
